@@ -1,0 +1,21 @@
+# Fazer requisição post
+POST http://localhost:3000/orders HTTP/1.1
+content-type: application/json
+
+{
+    "table": 1,
+    "food": ["banana", "maçã", "uva"],
+    "drinks": ["suco de laranja", "água"]
+}
+
+
+
+### Fazer requisição post
+POST http://localhost:3000/orders HTTP/1.1
+content-type: application/json
+
+{
+    "table": 2,
+    "food": [],
+    "drinks": []
+}
